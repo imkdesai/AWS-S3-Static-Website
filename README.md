@@ -1,14 +1,21 @@
-# AWS-S3-Static-Website
-Project Overview: Explain the purpose of the project.
-Technologies Used: Mention AWS S3, Terraform, and any other tools.
+# AWS S3 Static Website Hosting
 
-**Features:**
-Static website hosting
-Cross-region replication
-Encryption, versioning, lifecycle policies
+This project demonstrates hosting a static website using AWS S3 and managing infrastructure with Terraform.
 
-Instructions to Run:
-Prerequisites (AWS account, Terraform installation)
+## Features
+- **Static Website Hosting**: Hosted using AWS S3.
+- **Infrastructure as Code**: Managed with Terraform.
+- **Security**: Enabled encryption and bucket policies.
+- **Optimization**: Implemented lifecycle policies for cost management.
 
-Steps to apply Terraform and upload files
-Screenshots: Add visuals of the hosted website and AWS S3 configuration.
+## Prerequisites
+- AWS account
+- Terraform installed on your machine
+
+## Setup
+1. Clone this repository:
+   git clone https://github.com/<your-username>/AWS-S3-Static-Website.git
+
+# Navigate to the terraform/ directory and apply the configuration:
+terraform init
+terraform apply
