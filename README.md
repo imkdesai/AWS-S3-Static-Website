@@ -12,10 +12,4 @@ This project demonstrates hosting a static website using AWS S3 and managing inf
 - AWS account
 - Terraform installed on your machine
 
-## Setup
-1. Clone this repository:
-   git clone https://github.com/<your-username>/AWS-S3-Static-Website.git
 
-# Navigate to the terraform/ directory and apply the configuration:
-terraform init
-terraform apply
