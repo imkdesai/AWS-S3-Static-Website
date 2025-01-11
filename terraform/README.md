@@ -50,13 +50,4 @@ Clone this repository to your local machine:
 git clone https://github.com/imkdesai/AWS-S3-Static-Website.git
 cd AWS-S3-Static-Website/terraform
 
-### step:2 Initialize and Apply Terraform
-terraform init
-terraform validate
-terraform plan
-terraform apply
 
-### step:3 Upload Website Files
-Use the AWS CLI or the AWS Console to upload your static website files (index.html, css/styles.css, etc.) to the S3 bucket.
-aws s3 cp ../static-site/index.html s3://<your-bucket-name>/
-aws s3 cp ../static-site/css/styles.css s3://<your-bucket-name>/css/
